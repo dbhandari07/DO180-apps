@@ -1,0 +1,13 @@
+Review the YAML file.
+
+Using your preferred editor, open and examine the app file located at ~/DO180/labs/multicontainer-application/todo-app.yml. Notice the following resources defined in the todo-app.yml and review their configurations.
+
+    The todoapi pod definition defines the Node.js application.
+
+    The mysql pod definition defines the MySQL database.
+
+    The todoapi service provides connectivity to the Node.js application pod.
+
+    The mysql service provides connectivity to the MySQL database pod.
+
+    The dbclaim persistent volume claim definition defines the MySQL /var/lib/mysql/data volume.
